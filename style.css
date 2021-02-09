@@ -1,0 +1,160 @@
+body{
+  background-image: url("pic.jpg");
+  font-family: monospace;
+}
+#title:hover{
+  width: 100%;
+font-size: 50px;
+height: 90px;
+text-shadow: 2px 2px;
+font-family: 'Texturina', serif;
+}
+#title {
+ width: 50%;
+ font-size: 25px;
+  height: 10% ;
+ }
+
+ 
+
+#div1 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: red;
+  font-size: 18px;
+  font-family: monospace;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+#div2 {
+  width: 120px;
+  height: 40px;
+  background-color:yellow;
+  color: white;
+  font-size: 18px;
+  font-family: monospace;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:yellow; left:0px; top:0px;}
+  25%  {background-color:blue; left:200px; top:0px;}
+  50%  {background-color:green; left:200px; top:200px;}
+  75%  {background-color:red; left:0px; top:200px;}
+  100% {background-color:yellow; left:0px; top:0px;}
+}
+#div3 {
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-family: monospace;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:green; left:200px; top:0px;}
+  50%  {background-color:red; left:200px; top:200px;}
+  75%  {background-color:yellow; left:0px; top:200px;}
+  100% {background-color:blue; left:0px; top:0px;}
+}
+#div4 {
+  width: 120px;
+  height: 40px;
+  background-color:green;
+  color: white;
+  font-size: 18px;
+  font-family: monospace;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:green; left:0px; top:0px;}
+  25%  {background-color:red; left:200px; top:0px;}
+  50%  {background-color:yellow; left:200px; top:200px;}
+  75%  {background-color:blue; left:0px; top:200px;}
+  100% {background-color:green; left:0px; top:0px;}
+}
+#div5 {
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-family: monospace;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+ body{
+    background-image: url("pic.jpg");
+    font-family: monospace;
+    color: white;
+ }
+ .heading:hover{
+  font-size: 50px;
+  text-shadow: 2px 2px;
+  font-family: 'Texturina', serif;
+}
+ .heading {
+   width: 50%;
+   font-size: 25px;
+    width: 100px;
+    height: 100px;
+   }
+
+   #camera{
+     height: 200px;
+     width: 290;
+     border: 2px;
+     border-color: black;
+     border-style: solid;
+     border-radius: 17px;
+   }
+
+   #result{
+    height: 200px;
+     width: 290;
+     border: 2px;
+     border-color: black;
+     border-style: solid;
+     border-radius: 17px;
+  }
+  .buttons{
+   color: black;
+  }
+  
